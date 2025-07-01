@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*alc0)iz6qjc3(!kp9fw0r5!*h^!-_%7savu67)w-hv2+6r_k5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.2.109', '192.168.0.107','BloodBridge.onrender.com']
+ALLOWED_HOSTS = ['192.168.2.109', '192.168.0.107','bloodbridge-1sqo.onrender.com']
 
 
 # Application definition
@@ -60,10 +60,10 @@ CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins (good for dev only)
 CORS_ALLOW_CREDENTIALS = True
 CSRF_COOKIE_HTTPONLY = False
 CSRF_COOKIE_SAMESITE = 'Lax'
-CSRF_TRUSTED_ORIGINS = ['http://192.168.0.107','BloodBridge.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://192.168.0.107','bloodbridge-1sqo.onrender.com']
 CORS_ALLOWED_ORIGINS = [
     'http://192.168.0.107'
-    ,'BloodBridge.onrender.com'# your frontend origin
+    ,'bloodbridge-1sqo.onrender.com'# your frontend origin
 ]
 
 # OR more securely (for production you should use CORS_ALLOWED_ORIGINS):
