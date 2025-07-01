@@ -60,10 +60,10 @@ CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins (good for dev only)
 CORS_ALLOW_CREDENTIALS = True
 CSRF_COOKIE_HTTPONLY = False
 CSRF_COOKIE_SAMESITE = 'Lax'
-CSRF_TRUSTED_ORIGINS = ['http://192.168.0.107','bloodbridge-1sqo.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://192.168.0.107','https://bloodbridge-1sqo.onrender.com']
 CORS_ALLOWED_ORIGINS = [
     'http://192.168.0.107'
-    ,'bloodbridge-1sqo.onrender.com'# your frontend origin
+    ,'https://bloodbridge-1sqo.onrender.com'# your frontend origin
 ]
 
 # OR more securely (for production you should use CORS_ALLOWED_ORIGINS):
